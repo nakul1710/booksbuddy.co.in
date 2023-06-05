@@ -112,6 +112,13 @@ nav a.active {
     }
 }
 
+@media (max-width: 1000px) {
+    #gallery > img {
+        width: 100%;
+    }
+}
+
+
 .price>.stage {
     background-color: #ddd;
     color: black;

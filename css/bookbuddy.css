@@ -1,0 +1,209 @@
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+img {
+    border: 2px solid black;
+
+}
+
+nav {
+    background-color: black;
+
+}
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: white;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav a.active {
+    background-color: green;
+    display: grid;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+    nav a {
+        width: 100%;
+    }
+}
+
+.heading {
+    font-size: 30px;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-photo {
+    border-radius: 5000px;
+    width: 120px;
+    height: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.Team-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+#pricing {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    margin: 1px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+@media (max-width: 1000px) {
+    .price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 1px;
+        border: 1px solid #000;
+        border-radius: 3px;
+    }
+}
+
+.price>.stage {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.join {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0px;
+
+}
+
+.join-btn {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.join-btn:hover {
+    background: black;
+    color: white;
+}
+.price>h2 {
+    margin-top: 15px;
+}
+
+.price>ol {
+    margin: 15px 0;
+
+}
+
+.price>ol>li {
+    padding: 5px 0;
+    display: flex;
+}
+
+.price>button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+
+.price>button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+    #pricing {
+        flex-direction: column;
+    }
+}
+
+.buny {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.head {
+    font-size: 30px;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}

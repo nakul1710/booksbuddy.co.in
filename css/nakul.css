@@ -1,20 +1,26 @@
 .header {
-    text-align: center;
-    background-color: black;
+    text-align: right;
+    
+    padding-right: 20px;
+}
+body{
+    background-color: #1c242a;
+}
+.google {
     color: white;
-    padding: 20px;
-}
-nav {
-    background-color: black;
-
-}
-
-nav a {
-    float: left;
-    color: black;
+    font-size: 50px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    background-color: white;
+    padding-top:350px;
+}
+form {
+   padding-top: 0px;
+   
+}
+.footer {
+    padding-top: 250px;
+    background-color: #1c242a;
+    color:white;
+}
+.footer nav {
+    color:  white;
 }

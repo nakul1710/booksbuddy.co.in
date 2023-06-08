@@ -1,0 +1,146 @@
+main {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 150px;
+    height: 80%;
+    background-color: #f0f2f5;
+}
+
+.facebook {
+    font-size: 25px;
+    display: inline-block;
+    width: 49%;
+    height: 80%;
+    text-align: left;
+    
+    padding-top: 80px
+}
+
+.log-in {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(186, 182, 182, 0.1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    display: inline-block;
+    width: 396px;
+    height: 60%;
+    padding: 10px;
+    float: right;
+}
+
+.facebook img {
+    height: 106px;
+}
+
+.facebook h2 {
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    margin: 0 0 0 30px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.log-in form {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.log-in form input {
+    padding: 20px;
+    font-size: 17px;
+    width:80%;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    width: 330px;
+    border-radius: 6px;
+}
+.log-in .submit button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 365px;
+    color: white;
+}
+    
+
+body{
+    background: #fff;
+    color: #1c1e21;
+}
+
+.create a {
+    display: inline;
+    float: bottom;
+    color: black
+}
+
+.forget {
+    text-decoration: none;
+    color: #1877f2;
+    font-family: inherit;
+}
+
+.create a:hover {
+    display: inline;
+    float: bottom;
+    color: black
+}
+.new button{
+    background-color: #42b72a;
+    width: 200px;
+    line-height: 28px;
+    font-family: inherit;
+    border: 1px solid white;
+    font-size: 17px;
+    color: white;
+    line-height: 48px;
+    padding: 0 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(186, 182, 182, 0.1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 45%;
+    background-color: white;
+}
+.pagefooter{
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    text-decoration: none;
+    font-family: inherit;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+li {
+    display:inline;
+    padding: 0 4px 0 4px;
+}
+li a {
+    text-decoration: none;
+    color:#737373;
+}
+li a:hover {
+    text-decoration: underline;
+    color:#737373;
+
+}

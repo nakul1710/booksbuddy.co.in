@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    text-align: left;
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+}
+.logo {
+    height: 80px;
+    height: 35px;
+}

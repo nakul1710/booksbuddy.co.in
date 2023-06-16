@@ -1,16 +1,16 @@
-for (var i=0; i<9; i++){
-    var star = " "
-    for(var j=0; j<i+1; j++){
-          star += "*"
-        med = 9/2;
-        if(j>med) {
-            star += "*"
-        }
-        else{
+var num = 9;
+for (var i=1; i<=num; i++){
+    var star = ""
+    var space = ""
+    var lowerIndex = 1 + space/2
+    var higherIndex = num - space/2
+    for(var j=1; j<=i; j++){
+        if(j > lowerIndex && j < higherIndex) {
+            star += "*" 
+        }else{
             star += " "
         }
-         star += " "
     }
-    console.log(star) 
+    console.log(star)
 }
 

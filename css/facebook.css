@@ -109,7 +109,7 @@ body{
 
 footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 1px;
     height: 40%;
     width: 100%;
     background-color: white;

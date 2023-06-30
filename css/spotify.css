@@ -6,8 +6,18 @@
     width: 100%;
     background-color: black;
     padding: 20px;
+    border-radius: 30px;
+}
+#root {
+    
 }
 .logo {
     height: 90px;
     height: 80px;
+}
+.wrap {
+    text-align: center;
+    margin-top: 0px;
+    background-color: red;
+    padding: 50px;
 }

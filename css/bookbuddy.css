@@ -159,8 +159,8 @@ nav a.active {
 }
 
 .join-btn:hover {
-    background: black;
-    color: white;
+    background: greenyellow;
+    color: black;
 }
 .price>h2 {
     margin-top: 15px;

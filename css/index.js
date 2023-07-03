@@ -1,3 +1,2 @@
-var letter = 'abc';
-letter.match(/a/)
+console.log(3 > 2);
 

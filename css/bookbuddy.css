@@ -160,7 +160,7 @@ nav a.active {
 
 .join-btn:hover {
     background: black;
-    color: black;
+    color: red;
 }
 .price>h2 {
     margin-top: 15px;

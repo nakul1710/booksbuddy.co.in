@@ -26,6 +26,11 @@ nav a:hover {
     background-color: black;
     color: red;
 }
+@media (max-width: 1000px) {
+    nav a {
+        width: 100%;
+    }
+}
 .about {
     text-align: center;
     background-color: #f9f9f9;
@@ -45,10 +50,6 @@ nav a:hover {
     text-align: center;
     animation: bounce 1s infinite;
 }
-.heading a {
-    color: red;
-    margin-left: 280px;
-} 
 .about .address {
     font-size: 40px;
 }
@@ -67,4 +68,49 @@ nav a:hover {
 .Education.college {
    color: red;
 
+}
+.projects-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.projects-content {
+    width: 80%;
+    max-width: 800px;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.project-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.gallery-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.gallery-item {
+    flex-basis: calc(33.33% - 10px);
+    overflow: hidden;
+    padding: 0 5px 0 5px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }

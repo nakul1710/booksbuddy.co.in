@@ -91,6 +91,7 @@ nav a:hover {
 .Education a {
     color:red;
     text-decoration: none;
+    margin-left: 600px;
     
 }
 .Education h1,a,h2,p,img {
@@ -113,7 +114,7 @@ nav a:hover {
     justify-content: center;
 }
 .projects-content {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
 }
 .project-grid {

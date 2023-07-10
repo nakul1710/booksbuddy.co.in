@@ -1,0 +1,111 @@
+ *{
+    margin-top: 0px;
+ }
+ body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px;
+    display:block;
+}
+.nest{
+    box-sizing: border-box;
+    line-height: 0px;
+}
+.nest >.image1 {
+    float:left;
+}
+nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ nav a:hover {
+    text-decoration: underline;
+    line-height: 10px;
+ }
+ .about {
+    background-color: #1a092d;
+ }
+ .left{
+    color: white;
+    padding-left: 100px;
+    font-weight: 100;
+    line-height: 50px;
+ }
+ 
+ .left h1 {
+    color: white;
+    margin-top: 0px;
+    padding-left: 0px;
+    font-size: 70px;
+ }
+ .left h2 {
+    
+    margin-top: 0px;
+    padding-left: 0px;
+    font-size: 50px;
+    color:  red;
+ }
+ .right{
+    padding-top: 0px;
+    color:white;
+    padding-left: 100px;
+    line-height: 20px;
+ }
+.d2 {
+   padding-top: 30px;
+}
+.d3 {
+    padding-top: 30px;
+}
+.services{
+    background-color: black;
+    color:white;
+}
+.ser-top h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.block {
+    display: inline;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+.b1{
+    border: 1px solid tomato;
+    width:25%;
+    height: 300px;
+    background-color: tomato;
+    margin-left: 30px;
+    color: black;
+    
+}
+.b2{
+    border: 1px solid skyblue;
+    width:25%;
+    height: 300px;
+    background-color: skyblue;
+    padding-left: 30;
+    color: black;
+    float: calc();
+}
+.b3{
+    border: 1px solid pink;
+    width:25%;
+    height: 300px;
+    background-color: pink;
+    color: black;
+    
+}
+
+

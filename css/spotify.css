@@ -1,23 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-.header {
-    text-align: right;
-    width: 100%;
-    background-color: black;
-    padding: 20px;
-    border-radius: 30px;
-}
-#root {
-    
-}
-.logo {
-    height: 90px;
-    height: 80px;
-}
-.wrap {
-    text-align: center;
-    margin-top: 0px;
-    background-color: red;
-    padding: 50px;
+ol {
+    list-style-image: url("../img/avatar.png");
+    width:20px;
+    height:20px;
 }

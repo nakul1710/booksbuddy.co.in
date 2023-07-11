@@ -122,8 +122,9 @@ nav a.active {
 }
 
 @media (max-width: 1000px) {
-    #gallery > img {
-        width: 100%;
+    .d1 img {
+        width:100%;
+        display: block;
     }
 }
 

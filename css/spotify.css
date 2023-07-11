@@ -1,5 +1,19 @@
-ol {
-    list-style-image: url("../img/avatar.png");
-    width:20px;
-    height:20px;
+
+
+.d1 {
+    background-color: brown;
+    width:25%;
+    max-width:30%;
+    
+}
+.d2 {
+    background-color: black;
+    width:25%;
+    color:white;
+    
+}
+.d3 {
+    background-color: red;
+    width:25%;
+    
 }

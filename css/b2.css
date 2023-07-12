@@ -183,5 +183,21 @@ nav a {
         
     }   
 }
-
-
+.Facilities{
+    background-color: black;
+    color:white;
+}
+.Facilities h1 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.Facilities h3{
+    margin-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.Facilities hr{
+    color:white;
+}

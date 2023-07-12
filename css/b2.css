@@ -128,7 +128,7 @@ nav a {
 .b1{
     border: 1px solid tomato;
     width:25%;
-    height: 250px;
+    height: 300px;
     background-color: tomato;
     margin-right: 30px;
     color: black;
@@ -147,7 +147,7 @@ nav a {
 .b2{
     border: 1px solid skyblue;
     width:25%;
-    height: 250px;
+    height: 300px;
     background-color: skyblue;
     margin-right: 30px;
     color: black;
@@ -168,7 +168,7 @@ nav a {
 .b3{
     border: 1px solid pink;
     width:25%;
-    height: 250px;
+    height: 300px;
     background-color: pink;
     color: black;
     

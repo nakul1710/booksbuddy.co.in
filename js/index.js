@@ -1,7 +1,11 @@
 
-function example() {
-    console.log('line one')
-    console.log('line two')
-    console.log('line three')
+//creating an object
+var virtualPet = {
+    sleepy: true,
+    nap: function() {
+        this.sleepy = false
+    }
 }
-console.log(example());
+console.log(virtualPet.sleepy) // true
+virtualPet.nap()
+console.log(virtualPet.sleepy) // false

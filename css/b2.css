@@ -12,6 +12,7 @@
     color: white;
     padding: 60px;
     display:block;
+    
    
 }
 @media (max-width:1000px){
@@ -19,7 +20,7 @@
         text-align: center;
         background-color: black;
         color: white;
-        padding: 200px;
+        padding: 180px;
         display:block;
         padding-top: 0px;
     }
@@ -33,7 +34,7 @@
 }
 @media (max-width:1000px){
     .nest .image1 {
-        float:right;
+        float:left;
     }
 }
 nav a {
@@ -46,27 +47,30 @@ nav a {
 }
 @media (max-width:1000px){
     nav a {
-        float: left;
+        float: right;
         color: white;
         display: block;
         text-align: center;
-        padding: 5px 7px;
+        padding: 2px 4px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 10px;
+        margin-top:px;
+
     }
 }
  nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     line-height: 10px;
  }
  .about {
     background-color: #1a092d;
+    padding:30px;
  }
+ 
  .left {
     color: white;
-    padding-left: 100px;
-    font-weight: 0;
     line-height: 50px;
+    padding-right: px;
  }
  
  
@@ -92,10 +96,10 @@ nav a {
     color:  red;
  }
  .right{
-    padding-top: 0px;
+    padding-top: 40px;
     color:white;
-    padding-left: 100px;
-    line-height: 20px;
+    padding-left: 0px;
+    line-height: 30px;
  }
 .d2 {
    padding-top: 30px;
@@ -120,7 +124,6 @@ nav a {
 @media (max-width:1000px){
     .block {
         display: block;
-        
         justify-content: center;
         word-spacing: 10px;
     }
@@ -128,6 +131,7 @@ nav a {
 .b1{
     border: 1px solid tomato;
     width:25%;
+    padding:20px;
     height: 300px;
     background-color: tomato;
     margin-right: 30px;
@@ -142,6 +146,7 @@ nav a {
         background-color: tomato;
         color: black;
         margin-bottom:20px;
+        padding:10px;
        }
 }
 .b2{
@@ -150,8 +155,9 @@ nav a {
     height: 300px;
     background-color: skyblue;
     margin-right: 30px;
+    padding:20px;
     color: black;
-    float: calc();
+    
 }
 @media (max-width:1000px){
     .b2{
@@ -161,13 +167,14 @@ nav a {
         background-color: skyblue;
         padding-left: 30;
         margin-bottom:20px;
+        padding:10px;
         color: black;
-        float: calc();
     } 
 }
 .b3{
     border: 1px solid pink;
     width:25%;
+    padding:20px;
     height: 300px;
     background-color: pink;
     color: black;
@@ -177,6 +184,7 @@ nav a {
     .b3{
         border: 1px solid pink;
         width:100%;
+        padding:10px;
         height: 200px;
         background-color: pink;
         color: black;
@@ -186,6 +194,7 @@ nav a {
 .Facilities{
     background-color: black;
     color:white;
+    padding:30px
 }
 .Facilities h1 {
     font-size: 50px;
@@ -198,6 +207,42 @@ nav a {
     padding-top: 0px;
     padding-bottom: 20px;
 }
-.Facilities hr{
-    color:white;
+.list  {
+    line-height: 60px;
+}
+.f1 p{
+    font-size: 30px;
+    display: inline;
+}
+.f1 h1 {
+    font-size:40px;
+    display: inline;
+}
+.f1 .c1 {
+    padding-left:140px;
+}
+.swami img {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+@media (max-width:1000px) {
+    .swami {
+        margin-left: 0px;
+        padding-top: 40px;
+    }
+}
+@media (max-width:1000px){
+    .swami img {
+    height:200px;
+    width:300px;
+  }
+}
+.swami p{
+    display: block;
+    font-size: 20px;
+    margin-left: 0px;
+    
+    
 }

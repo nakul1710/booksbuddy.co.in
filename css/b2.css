@@ -210,13 +210,30 @@ nav a {
 .list  {
     line-height: 60px;
 }
+@media (max-width:1000px){
+    .list  {
+        line-height: 30px;
+    }
+}
 .f1 p{
     font-size: 30px;
     display: inline;
 }
+@media (max-width:1000px){
+    .f1 p{
+        font-size: 20px;
+        display: inline;
+    } 
+}
 .f1 h1 {
     font-size:40px;
     display: inline;
+}
+@media (max-width:1000px){
+    .f1 h1 {
+        font-size:15px;
+        display: inline;
+    }
 }
 .f1 .c1 {
     padding-left:140px;
@@ -225,6 +242,7 @@ nav a {
     padding-top: 40px;
     display: flex;
     justify-content: center;
+    margin-left: 90px;
     
 }
 @media (max-width:1000px) {
@@ -237,12 +255,18 @@ nav a {
     .swami img {
     height:200px;
     width:300px;
+    margin-left: 10px;
   }
 }
 .swami p{
     display: block;
     font-size: 20px;
-    margin-left: 0px;
-    
-    
+    margin-left: 90px;
+}
+@media (max-width:1000px){
+    .swami p{
+        display: block;
+        font-size: 20px;
+        margin-left: 30px;
+    }
 }

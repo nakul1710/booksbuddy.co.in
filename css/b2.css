@@ -69,11 +69,17 @@ nav a {
  
  .left {
     color: white;
-    line-height: 50px;
-    padding-right: px;
+    line-height: 80px;
  }
- 
- 
+ .left p {
+    color:#fff;
+    font-size: 25px ;
+    line-height: 20px;
+ }
+ .left .reg {
+    font-size: 25px;
+    color: #a8b7cd;
+ }
  .left h1 {
     color: white;
     margin-top: 0px;

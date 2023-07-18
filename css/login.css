@@ -97,6 +97,6 @@
       background-color: purple;
     }
     100% {
-      transform: rotate(1234deg);
+      transform: rotate(-1200deg);
     }
   }

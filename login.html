@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Ferris Wheel</title>
+
+<head>
+    <meta charset="utf-8">
+    <title>BookBuddy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/login.css" rel="stylesheet">
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td colspan="2"></td>
-        <td rowspan="2"></td>
-        <td></td>
-        <td colspan="2"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td rowspan="3"></td>
-        <td colspan="3"></td>
-      </tr>
-      <tr>
-        <td rowspan="2"></td>
-        <td colspan="3"></td>
-      </tr>
-      <tr>
-        <td rowspan="2"></td>
-        <td colspan="4"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td rowspan="3"></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td colspan="2" rowspan="2"></td>
-      </tr>
-      <tr>
-        <td colspan="3"></td>
-      </tr>
-    </table>
-  </body>
+</head>
+<body>
+  <div class="wrapper">
+    <form action="">
+    <h1 style="text-align:center;">Login</h1>
+    <div class="input-box">
+      <input type="text" placeholder="Username" required>
+    </div>
+    <div class="input-box">
+     <input type="password" placeholder="Password" required>
+    </div>
+    <div class="forgot">
+    <label><input type="checkbox">Remember me</label>
+    <a href="#">forgot password</a>
+    </div>
+    <button type="login" class="btn">Login</button>
+    <div class="register">
+      <p>Don't have an account</p>
+      <a href="#">Sign-in</a>
+    </div>
+   </form>
+  </div>
+</body>
 </html>

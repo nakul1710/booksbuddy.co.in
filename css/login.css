@@ -15,7 +15,6 @@ body{
   opacity: 0.8;
   padding:20px;
   border-radius: 30px;
-  text-shadow: 70px;
 }
 .input-box input{
   width:100%;
@@ -23,6 +22,7 @@ body{
   gap: 10px;
   border-radius: 20px;
   gap:10px;
+  margin-top: 10px;
 }
 .btn {
   width:100%;
@@ -34,4 +34,18 @@ body{
 .forgot{
   display: flex;
   justify-content:space-between;
+  margin-left: 30px;
+}
+.forgot a{
+  margin-left: 40px;
+  color:black;
+  text-decoration: none;
+}
+.forgot a:hover{
+  margin-left: 40px;
+  color:black;
+  text-decoration: underline;
+}
+.register a {
+  color:black;
 }

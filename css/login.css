@@ -3,6 +3,7 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 300px;
+ 
   align-items: center;
 }
 .wrapper{
@@ -20,6 +21,8 @@ body{
   width:100%;
   height:20px;
   gap: 10px;
+  border-radius: 20px;
+  gap:10px;
 }
 .btn {
   width:100%;

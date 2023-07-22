@@ -36,3 +36,12 @@ for (let i = 1; i < numbers.length; i++) {
 
 console.log("The maximum number in the array is:", maxNumber);
 
+const word = "racer"
+let ispalindrope = true;
+for(let i=0; i < Math.floor(word.length/2); i++){
+  if(ispalindrope !== word[word.length-1-i]){
+    ispalindrope = false;
+    break;
+  }
+}
+console.log("The word is",ispalindrope? "a palindrope","not a plaindrope")

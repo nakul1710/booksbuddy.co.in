@@ -44,4 +44,13 @@ for(let i=0; i < Math.floor(word.length/2); i++){
     break;
   }
 }
-console.log("The word is",ispalindrope? "a palindrope","not a plaindrope")
+console.log("The word is",ispalindrope? "a palindrope":"not a plaindrope")
+const number = [2,4,6,8,10,12];
+let sum = 0;
+
+for(let i=0; i < number.length; i++){
+    sum += number[i];
+}
+let average = sum/number.length;
+console.log("The average is", average);
+

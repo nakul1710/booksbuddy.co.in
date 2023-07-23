@@ -44,9 +44,6 @@ for(let i=0; i < Math.floor(word.length/2); i++){
     break;
   }
 }
-console.log("The word is",ispalindrope? "a palindrope":"not a plaindrope")
-const number = [2,4,6,8,10,12];
-let sum = 0;
 
 for(let i=0; i < number.length; i++){
     sum += number[i];
@@ -113,11 +110,27 @@ for (let i = 1; i <= rows; i++) {
 
   console.log(pattern);
 }
-const rows = 5;
-for (let i = rows; i >= 1; i--) {
-  let pattern = "";
-  for (let j = 1; j <= i; j++) {
-    pattern += "*";
+
+const matrixA = [
+  [1, 2],
+  [3, 4],
+];
+
+const matrixB = [
+  [5, 6],
+  [7, 8],
+];
+function matrixAddition(matrixA, matrixB){
+  const numRows = matrixA.length;
+  const numCols = matrixA[0].length;
+  const resultMatrix = [];
+  for (let i=0; i < numRows; i++){
+    resultMatrix[i] = [];
+    for (let j = 0; j < numCols; j++) {
+      resultMatrix[i][j] = matrixA[i][j] + matrixB[i][j];
+    }
   }
-  console.log(pattern);
+
 }
+const matrixSum = matrixAddition(matrixA, matrixB);
+console.log("Matrix Addition Result:", matrixSum);

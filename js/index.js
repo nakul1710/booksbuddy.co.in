@@ -53,4 +53,20 @@ for(let i=0; i < number.length; i++){
 }
 let average = sum/number.length;
 console.log("The average is", average);
+let a = 2;
+let b = 3;
+let temp;
+console.log("Before swaping: a=",a,"b=",b);
+temp = a;
+a = b;
+b = temp;
+console.log("After swaping: a=",a,"b=",b);
+//without using third variable
+let n = 2;
+let m = 3;
+console.log("before swaping: n=",n,"m=",m);
+n = m+n;
+m = n - m;
+n = n- m;
+console.log("After swaping: n=",n,"m",m);
 

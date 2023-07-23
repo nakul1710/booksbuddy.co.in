@@ -90,3 +90,15 @@ for(i=0; i <= arrays.length; i++){
     maxnum = arrays[i];
 }
 console.log("The maximum number is: ", maxnum)
+const originalPrice = 120;
+const discountPercentage = 20;
+let discountedPrice;
+
+if (originalPrice > 100 && discountPercentage >= 10) {
+  const discountAmount = (originalPrice * discountPercentage) / 100;
+  discountedPrice = originalPrice - discountAmount;
+} else {
+  discountedPrice = originalPrice;
+}
+
+console.log("The discounted price is:", discountedPrice);

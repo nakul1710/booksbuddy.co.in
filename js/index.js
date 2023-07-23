@@ -80,3 +80,6 @@ if(num < 2){
     }
 }
 console.log("The number is", isPrime ? "prime." : "not prime.")
+const string = "Hello World!";
+const reversedString = string.split("").reverse().join("");
+console.log("the string is reversed:", reversedString);

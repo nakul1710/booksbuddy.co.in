@@ -83,3 +83,10 @@ console.log("The number is", isPrime ? "prime." : "not prime.")
 const string = "Hello World!";
 const reversedString = string.split("").reverse().join("");
 console.log("the string is reversed:", reversedString);
+const arrays = [1,5,9,8,3];
+let maxnum = arrays[i];
+for(i=0; i <= arrays.length; i++){
+    if(maxnum < arrays[i])
+    maxnum = arrays[i];
+}
+console.log("The maximum number is: ", maxnum)

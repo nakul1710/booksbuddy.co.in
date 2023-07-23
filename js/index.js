@@ -102,3 +102,14 @@ if (originalPrice > 100 && discountPercentage >= 10) {
 }
 
 console.log("The discounted price is:", discountedPrice);
+const rows = 5;
+
+for (let i = 1; i <= rows; i++) {
+  let pattern = "";
+
+  for (let j = 1; j <= i; j++) {
+    pattern += "*";
+  }
+
+  console.log(pattern);
+}

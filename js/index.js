@@ -134,3 +134,13 @@ function matrixAddition(matrixA, matrixB){
 }
 const matrixSum = matrixAddition(matrixA, matrixB);
 console.log("Matrix Addition Result:", matrixSum);
+function Icecream(flavor) {
+  this.flavor = flavor;
+  this.meltIt = function() {
+      console.log(`The ${this.flavor} icecream has melted`);
+  }
+}
+
+let kiwiIcecream = new Icecream("kiwi");
+let appleIcecream = new Icecream("apple");
+kiwiIcecream;

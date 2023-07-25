@@ -5,39 +5,36 @@
         <title>Nakul Yadav</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/yadav.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+   .row {
+    color:black;
+    border:1px solid black;
+    height: 200px;
+   }
+    </style>
     </head>
     <body>
-        <table>
-            <tr>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-            </tr>
-            <tr>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-            </tr>
-            <tr>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-            </tr>
-            <tr>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-            </tr>
-            <tr>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td>
-            </tr>
-        </table>
+        <div class="container-fluid p-5 bg-primary text-white text-center">
+            <h1>My First Bootstrap Page</h1>
+            <p>Resize this responsive page to see the effect!</p> 
+        </div>
+        <div class="container">
+            <div class="row bg-success col-sm-4 col-md-4 col-xl-4 col-xl-4">
+                <h1>First Column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </div>
+            <div class="row bg-danger col-sm-4 col-md-4 col-xl-4 col-xl-4">
+                <h1>Second Column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </div>
+            <div class="row bg-info col-sm-4 col-md-4 col-xl-4 col-xl-4">
+                <h1>Third Column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </div>
+        </div>
     </body>
     </html>

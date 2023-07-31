@@ -2,8 +2,11 @@
     margin-top: 100px;
     
 }
+.img{
+    display: inline-block;
+}
 .nav a{
-    float: left;
+    
     color: black;
     text-align: center;
     padding: 5px 5px;
@@ -12,14 +15,21 @@
     background-color: white;
     display: inline-block;
 }
-nav a:hover{
+.nav a:hover{
     color: skyblue;
 }
-.button{
+  .button{
     border:1px solid skyblue;
-    width:181px;
+    background-color: aqua;
+    width:185px;
     display:inline-block;
-    color:black;
+}
+ .button a{
+    color: white;
     text-decoration: none;
-    margin-left: 40px;
+    font-size: 13px;
+}
+.banner{
+    margin-top: 20px;
+    
 }

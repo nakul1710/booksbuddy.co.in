@@ -7,11 +7,21 @@ body{
     display:flex;
     justify-content: center;
 }
+@media (max-width:1000px){
+    body{
+        margin-top: px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        display:flex;
+        justify-content: center;
+    }
+}
 .logo{
     top:20px;
     position: fixed;
     left:30px;
 }
+
 .wrapper h1 {
     color:white;
 }
@@ -27,7 +37,18 @@ body{
     border-radius: 10px;
     margin-bottom: 60px;
   }
-
+@media (max-width:1000px){
+    .wrapper{
+        display:flex;
+        justify-content: center;
+        border:1px solid black;
+        width:400px;
+        background-color: black;
+        
+        padding:20px;
+        margin-bottom: 60px;
+      }
+}
 .input-box input{
     width:80%;
     margin:20px;

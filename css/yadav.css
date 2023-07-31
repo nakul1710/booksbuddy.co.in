@@ -33,3 +33,23 @@
     margin-top: 20px;
     
 }
+.you{
+    line-height: 5px;
+}
+.you h2{
+    margin-left: 400px;
+    color:aqua;
+}
+.you p{
+    font-size: 20px;
+    color: black;
+    
+    margin-left: 400px;
+}
+
+.you .text{
+    font-size: 10px;
+}
+.right.coffee{
+    float: right;
+}

@@ -1,13 +1,25 @@
-table,td {
-    border: 1px solid black;
-    border-collapse: collapse;
+.header{
+    margin-top: 100px;
     
 }
-table{
-    width:50%;
-    height: 500px;
-    
-}
-td{
+.nav a{
+    float: left;
+    color: black;
     text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    display: inline-block;
+}
+nav a:hover{
+    color: skyblue;
+}
+.button{
+    border:1px solid skyblue;
+    width:181px;
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    margin-left: 40px;
 }

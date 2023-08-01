@@ -12,6 +12,8 @@ body{
         margin-top: px;
         margin-bottom: 0px;
         margin-left: 0px;
+        background-image: url(../img/);
+        background-color: black;
         display:flex;
         justify-content: center;
     }
@@ -80,8 +82,14 @@ body{
     color:#737373;
 }
 .learn{
-    color:blue;
+    color:#0171eb;
     text-decoration: none;
+}
+@media (max-width:1000px){
+    .learn{
+        color:#0171eb;
+        text-decoration: none;
+    } 
 }
 .footer{
     color:#737373;

@@ -1,9 +1,13 @@
 .header{
     margin-top: 100px;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .img{
     display: inline-block;
+}
+.nav {
+    margin-left: 50px;
 }
 .nav a{
     
@@ -18,17 +22,23 @@
 .nav a:hover{
     color: skyblue;
 }
-  .button{
-    border:1px solid skyblue;
+  button{
+    border:1px solid aqua;
     background-color: aqua;
     width:185px;
     display:inline-block;
-}
- .button a{
     color: white;
-    text-decoration: none;
-    font-size: 13px;
+    
 }
+button:hover{
+    border:1px solid aqua;
+    background-color: aqua;
+    width:185px;
+    display:inline-block;
+    color: white;
+    box-shadow: 0.1px 2px 1px 1px grey;
+}
+ 
 .banner{
     margin-top: 20px;
     
@@ -36,6 +46,10 @@
 .you{
     line-height: 5px;
 }
+.cof{
+    margin-right: 230px;
+}
+
 .you h2{
     margin-left: 400px;
     color:aqua;
@@ -52,4 +66,53 @@
 }
 .right.coffee{
     float: right;
+}
+.container{
+    background-color: #f9f9f9;
+    margin-left:2%;
+    margin-top: 100px;
+    margin-right: 2%;
+    display: flex;
+    color: grey;
+    padding: 100px;
+    clear: both;
+    float: right;
+    margin-bottom: 40px;
+}
+.about{
+    float: left;
+}
+.me-content{
+    margin-left: 10px;
+    word-spacing: 10px;
+    line-height: 24px;
+}
+.tick{
+    line-height:20px;
+}
+.Us{
+    margin-bottom: 0px;
+}
+.us-content{
+  margin:200px;  
+}
+.take{
+    float: right;
+    margin-right: 200px;
+}
+.us-content p {
+    word-spacing: 10px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+}
+.andr{
+    
+    background-color: #f9f9f9;
+    margin: 2%;
+}
+.whir{
+    background-color: white;
+    padding:20px;
+    margin:50px;
 }

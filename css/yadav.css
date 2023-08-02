@@ -108,11 +108,27 @@ button:hover{
 }
 .andr{
     
-    background-color: #f9f9f9;
-    margin: 2%;
+    background-color:#f9f9f9;
+    height:900px;
+    margin:3%;
+    position: relative;
+   
 }
 .whir{
-    background-color: white;
+    background-color:white;
     padding:20px;
-    margin:50px;
+    margin:40px;
+    position: absolute;
+    width:1130px;
+    bottom: 1px;
+    top:2px;
+}
+.te1{
+    text-align: center;
+    position: relative;
+}
+.te2{
+    position: absolute;
+    bottom:90px;
+    right:350px
 }

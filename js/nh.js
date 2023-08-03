@@ -24,13 +24,10 @@ function matrixSubtraction(matrixA,matrixB){
 }
 const substract = matrixSubtraction(matrixA,matrixB)
 console.log("the subtraction is",substract);*/
-const nums = [2,7,11,15]
- const target = 9;
- let sum = 0;
- function twosum() {
-    for(let i=0; i<1; i++){
+var nums = [2,7,11,15];
+ var sum = 0;
+
+    for(var i=0; i<=1; i++){
       sum += nums[i];
     }
-    
-}
-twosum(2,7);
+console.log("The sum is",sum);

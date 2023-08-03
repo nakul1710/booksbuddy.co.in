@@ -1,5 +1,5 @@
 
-const matrixA = [
+/*const matrixA = [
     [2,5],
     [3,5],
 ];
@@ -23,4 +23,14 @@ function matrixSubtraction(matrixA,matrixB){
     return resultantMatrix;
 }
 const substract = matrixSubtraction(matrixA,matrixB)
-console.log("the subtraction is",substract);
+console.log("the subtraction is",substract);*/
+const nums = [2,7,11,15]
+ const target = 9;
+ let sum = 0;
+ function twosum() {
+    for(let i=0; i<1; i++){
+      sum += nums[i];
+    }
+    
+}
+twosum(2,7);

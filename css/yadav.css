@@ -173,12 +173,12 @@ button:hover{
  }
  .footer{
    margin-top: 50px;
-    
+   width:100%;
  }
  .foo-img{
     display:inline-block ;
     width:25%;
-  
+    
  }
  .foo-con{
     word-spacing: 10px;
@@ -186,18 +186,20 @@ button:hover{
     color: grey;
     display:inline-block;
     margin-top: 50px;
-   
+    
  }
  .f1{
     display: inline-block;
     width:25%;
-   
+    
  }
  .f2{
     display: inline-block;
     width:25%;
+    
  }
  .f3{
     display: inline-block;
-    width:25%
+    width:25%;
+    
  }

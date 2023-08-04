@@ -1,3 +1,6 @@
+*{
+    margin-right: 0px;
+}
 body {
     margin-top: 0px;
     margin-left: 0px;
@@ -125,8 +128,7 @@ nav a.active {
         align-items: center;
         text-align: center;
         width: 100%;
-        margin: 1px;
-        border: 1px solid #000;
+        border: 1px solid white;
         border-radius: 3px;
     }
 }
@@ -161,25 +163,25 @@ nav a.active {
     width: 100px;
     height: 30px;
     display: block;
-    font-size: 1em;
+    font-size: 15px;
     font-weight: 900;
     text-transform: uppercase;
     border: 1px white solid;
-    color:greenyellow;
-    background: transparent;
+    color:white;
+    background:#05aa6d;
     cursor: pointer;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     text-decoration: none;
-    color: black;
+    
 }
 
 .join-btn:hover {
-    background: gray;
-    color: black;
-    box-shadow: 3px 3px 3px 3px grey;
+    background: #05aa6d;
+    color: white;
+    
 }
 .price>h2 {
     margin-top: 15px;

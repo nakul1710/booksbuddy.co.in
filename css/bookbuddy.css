@@ -167,6 +167,7 @@ nav a.active {
     font-weight: 900;
     text-transform: uppercase;
     border: 1px white solid;
+    border-radius: 10px;
     color:white;
     background:#05aa6d;
     cursor: pointer;

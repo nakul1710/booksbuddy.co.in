@@ -164,8 +164,7 @@ nav a.active {
     font-size: 1em;
     font-weight: 900;
     text-transform: uppercase;
-    border: 3px black solid;
-    border-radius: 20px;
+    border: 1px white solid;
     color:greenyellow;
     background: transparent;
     cursor: pointer;
@@ -178,8 +177,9 @@ nav a.active {
 }
 
 .join-btn:hover {
-    background: black;
-    color: red;
+    background: gray;
+    color: black;
+    box-shadow: 3px 3px 3px 3px grey;
 }
 .price>h2 {
     margin-top: 15px;

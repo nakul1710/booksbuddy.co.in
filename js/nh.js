@@ -4,8 +4,8 @@ const matrixA = [
     [3,5],
 ];
 const matrixB = [
-    [2,4],
-    [1,3],
+    [2,4]
+    [1,3]
 ];
 const subtract = matrixSubtraction(matrixA,matrixB);
 console.log("substract:",subtract);

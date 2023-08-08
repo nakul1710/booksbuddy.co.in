@@ -1,5 +1,5 @@
 
-/*const matrixA = [
+const matrixA = [
     [2,5],
     [3,5],
 ];
@@ -23,11 +23,6 @@ function matrixSubtraction(matrixA,matrixB){
     return resultantMatrix;
 }
 const substract = matrixSubtraction(matrixA,matrixB)
-console.log("the subtraction is",substract);*/
-var nums = [2,7,11,15];
- var sum = 0;
+console.log("the subtraction is",substract);
 
-    for(var i=0; i<=1; i++){
-      sum += nums[i];
-    }
-console.log("The sum is",sum);
+

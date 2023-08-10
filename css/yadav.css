@@ -41,7 +41,16 @@ button:hover{
  
 .banner{
     margin-top: 20px;
-    
+}
+.ban-img{
+    position: relative;
+}
+.ban{
+    position: absolute;
+    top:500px;
+    left:100px;
+    font-size: 26px;
+    color: white;
 }
 .you{
     line-height: 5px;

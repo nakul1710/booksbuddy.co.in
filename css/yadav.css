@@ -121,13 +121,16 @@ button:hover{
     background-color:#f9f9f9;
     height:800px;
     position: relative;
+    clear: both;
+    
 }
+
 .stimg{
-    padding: 20px;
+    float: left;
 }
 .whir{
     background-color:white;
-    padding:20px;
+    padding: 20px;
     margin:50px;
     margin-right: 50px;
     position: absolute;
@@ -137,7 +140,8 @@ button:hover{
 .te1{
     text-align: center;
     position: relative;
-    
+    margin-left:5%;
+    margin-right: 5%;
 }
 .te2{
     position: absolute;
@@ -151,6 +155,9 @@ button:hover{
     background-color: #f9f9f9;
     width:100%;
     height:400px;
+}
+.form{
+    text-align: center;
 }
 .form h1{
     padding-top: 100px;
@@ -172,9 +179,7 @@ button:hover{
     justify-content: center;
     color: grey;
 }
- .form-btn{
-    margin-left: 540px;
- }
+ 
  .footer{
    margin-top: 50px;
    width:100%;

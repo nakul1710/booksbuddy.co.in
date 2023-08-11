@@ -125,9 +125,7 @@ button:hover{
     
 }
 
-.stimg{
-    float: left;
-}
+
 .whir{
     background-color:white;
     padding: 20px;
@@ -135,7 +133,11 @@ button:hover{
     margin-right: 50px;
     position: absolute;
     width:1100px;
-
+   
+   
+}
+.content{
+    
 }
 .te1{
     text-align: center;

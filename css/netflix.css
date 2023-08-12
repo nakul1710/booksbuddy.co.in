@@ -46,8 +46,8 @@ body{
         border:1px solid black;
         width:400px;
         background-color: black;
-        height:300px
-        padding:20px;
+        height:300px;
+        padding: 20px;
         margin-bottom: 60px;
       }
 }
@@ -57,7 +57,7 @@ body{
     height:40px;
     gap: 10px;
     color:#737373;
-    
+    font-size: 15px;
   }
   .forgot{
     display: flex;

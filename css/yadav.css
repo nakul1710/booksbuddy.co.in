@@ -1,16 +1,15 @@
-.header{
+.header {
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
-}
-.img{
+  }
+  .img {
     display: inline-block;
-}
-.nav {
+  }
+  .nav {
     margin-left: 50px;
-}
-.nav a{
-    
+  }
+  .nav a {
     color: black;
     text-align: center;
     padding: 5px 5px;
@@ -18,67 +17,66 @@
     font-size: 14px;
     background-color: white;
     display: inline-block;
-}
-.nav a:hover{
+  }
+  .nav a:hover {
     color: aqua;
-}
-  button{
-    border:1px solid aqua;
+  }
+  button {
+    border: 1px solid aqua;
     background-color: aqua;
-    width:184px;
-    display:inline-block;
+    width: 184px;
+    display: inline-block;
     color: white;
-    
-}
-button:hover{
-    border:1px solid aqua;
+  }
+  button:hover {
+    border: 1px solid aqua;
     background-color: aqua;
-    width:185px;
-    display:inline-block;
+    width: 185px;
+    display: inline-block;
     color: white;
     box-shadow: 0.1px 2px 1px 1px grey;
-}
- 
-.banner{
+  }
+  
+  .banner {
     margin-top: 20px;
-}
-.ban-img{
+  }
+  .ban-img {
     position: relative;
-}
-.ban{
+  }
+  .ban {
     position: absolute;
-    top:500px;
-    left:100px;
+    top: 500px;
+    left: 100px;
     font-size: 20px;
     color: white;
-}
-.you{
+  }
+  .you {
     line-height: 5px;
-}
-.cof{
+  }
+  .cof {
     margin-right: 230px;
-}
-
-.you h2{
+  }
+  
+  .you h2 {
     margin-left: 400px;
-    color:aqua;
-}
-.you p{
+    color: aqua;
+  }
+  .you p {
     font-size: 20px;
     color: black;
-    
+  
     margin-left: 400px;
-}
-
-.you .text{
+  }
+  
+  .you .text {
     font-size: 10px;
-}
-.right.coffee{
+  }
+  .right.coffee {
     float: right;
-}
-.container{
+  }
+  .container {
     background-color: #f9f9f9;
-    margin-left:2%;
+    margin-left: 2%;
     margin-top: 100px;
     margin-right: 2%;
     display: flex;
@@ -87,126 +85,122 @@ button:hover{
     clear: both;
     float: right;
     margin-bottom: 40px;
-}
-.about{
+  }
+  .about {
     float: left;
-    padding:10px;
-}
-.me-content{
+    padding: 10px;
+  }
+  .me-content {
     margin-left: 10px;
     word-spacing: 10px;
     line-height: 24px;
-}
-.tick{
-    line-height:20px;
-}
-.Us{
+  }
+  .tick {
+    line-height: 20px;
+  }
+  .Us {
     margin-bottom: 0px;
-}
-.us-content{
-  margin:200px;  
-}
-.take{
+  }
+  .us-content {
+    margin: 200px;
+  }
+  .take {
     float: right;
     margin-right: 200px;
-}
-.us-content p {
+  }
+  .us-content p {
     word-spacing: 10px;
     line-height: 24px;
     display: flex;
     justify-content: center;
-}
-.andr{
-    margin:3%;
-    background-color:#f9f9f9;
-    height:800px;
+  }
+  .andr {
+    margin: 3%;
+    background-color: #f9f9f9;
+    height: 800px;
     position: relative;
     clear: both;
-    
-}
-
-
-.whir{
-    background-color:white;
+  }
+  
+  .whir {
+    background-color: white;
     padding: 20px;
-    margin:50px;
+    margin: 50px;
     margin: 50px;
     position: absolute;
-    width:1100px;
-}
-
-.te1{
+    width: 1100px;
+  }
+  
+  .te1 {
     text-align: center;
     position: relative;
-    margin:5%;
-    
-}
-.te2{
+    margin: 5%;
+  }
+  .te2 {
     position: absolute;
-    bottom:90px;
-    right:350px;
-}
-.TESTIMONIALS{
+    bottom: 90px;
+    right: 350px;
+  }
+  .TESTIMONIALS {
     margin-bottom: 100px;
-}
-.CONTACTS{
+  }
+  .CONTACTS {
     background-color: #f9f9f9;
-    width:100%;
-    height:400px;
-}
-.form{
+    width: 100%;
+    height: 400px;
+  }
+  .form {
     text-align: center;
-}
-.form h1{
+  }
+  .form h1 {
     padding-top: 100px;
     font-size: 40px;
-}
-.input-box{
-    padding:20px;
+  }
+  .input-box {
+    padding: 20px;
     text-align: center;
-}
-.input-box input{
-    width:200px;
-    height:30px;
+  }
+  .input-box input {
+    width: 200px;
+    height: 30px;
     border: 1px solid #f9f9f9;
-}
-.stu-content{
+  }
+  .stu-content {
     word-spacing: 10px;
     line-height: 24px;
     display: flex;
     justify-content: center;
     color: grey;
-}
- 
- .footer{
-   margin-top: 50px;
-   width:100%;
- }
- .foo-img{
-    display:inline-block ;
-    width:25%;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .foo-img {
+    display: inline-block;
+    width: 25%;
     margin-right: 50px;
- }
- .foo-con{
+  }
+  .foo-con {
     word-spacing: 10px;
     line-height: 24px;
     color: grey;
-    display:inline-block;
+    display: inline-block;
     margin-top: 50px;
     margin-right: 30px;
- }
- .f1{
+  }
+  .f1 {
     display: inline-block;
-    width:25%;
-    
- }
- .f2{
+    width: 25%;
+  }
+  .f2 {
     display: inline-block;
-    width:25%;
-    
- }
- .f3{
+    width: 25%;
+  }
+  .f3 {
     display: inline-block;
-    width:25%;
+    width: 25%;
     margin-right: 50px;
- }
+  }
+  

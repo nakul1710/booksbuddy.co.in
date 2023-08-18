@@ -143,6 +143,7 @@
 .form{
     float: right;
     display: inline-block;
+    margin-right: 225px;
 }
 .svg-inline--fa {
     height:30px;

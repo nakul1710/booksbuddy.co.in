@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.car__body { 
+  position: relative;
+  height: 20rem;
+  width: 40px; 
+  animation-name: carMove;
+  animation-duration: 1s;
+
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+}
+ body{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/cargame.jpg);
+    
+  }
+  
+  .car__front-wheel {
+    position: absolute;
+    
+    animation-name: wheelSpin;
+    animation-duration: 1s;
+    
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+  }  
+       
+  .car__rear-wheel {
+    position: absolute;
+    bottom: 80px;
+    right: 4.7rem;
+    height: 7rem;
+    animation-name: wheelSpin;
+    animation-duration: 1s;
+    
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+  }    
+
+
+
+@keyframes wheelSpin {
+  0%   {
+    transform: rotate(360deg);
+  }
+ 
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes carMove {
+  0%   {
+    transform: translateX(100%);
+  }
+ 
+  100% {
+    transform: translateX(0);
+  }
+}

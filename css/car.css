@@ -17,20 +17,25 @@
     top:46px;
     left:35px;
     right:0px;
+    animation-name: back;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
-.back:hover {
-    position: absolute;
-    left: 0px;
-    top:46px;
-    left:35px;
-    right:0px;
-    transform:rotate(360deg);
+
+@keyframes back {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(360deg)}
 }
+
+
 .front{
     position: absolute;
     left:0px;
     top:46px;
     left:205px;
     right:0px;
-    transform:rotate(360deg);
+    animation-duration: 4s;
+    animation-timing-function: infinite;
+    transform: rotate(360deg);
 }

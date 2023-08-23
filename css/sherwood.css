@@ -1,0 +1,107 @@
+
+.logo img{
+   margin-left: 580px;
+   display: inline-block;
+   margin-top: -60px;
+}
+.nav-left a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+   margin-left: 80px;
+   margin-top: 35px;
+    
+}
+.nav-left a:hover{
+    display: inline-block;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+   margin-left: 80px;
+   margin-top: 35px;
+   color:#71a038;
+
+    
+}
+.nav-left{
+    
+}
+.nav-right{
+    margin-left: 737px;
+    margin-top: -101px;
+
+}
+.nav-right a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+   margin-left: 80px;
+   margin-top: 35px;
+}
+.nav-right a:hover{
+    display: inline-block;
+    text-decoration: underline;
+    color: black;
+    color: #71a038;
+    font-size: 25px;
+   margin-left: 80px;
+   margin-top: 35px;
+}
+.banner  {
+    margin-top: 50px;
+}
+.ban-img{
+    position: relative;
+}
+.ban-content {
+    position: absolute;
+    color: white;
+    top: 255px;
+    left:100px;
+    line-height: 15px;
+    font-size: 23px;
+}
+.ban-content h1{
+    font-size: 46px;
+    line-height: 50px;
+}
+.ban-btn{
+ position: absolute;
+}
+.b1 button{
+    border:1px solid gray;
+    width: 180px;
+    height: 40px;
+    color:white;
+    background-color: black;
+    display: inline;
+    position: absolute;
+    top: -12px;
+    font-size: 20px;
+    display: inline-block;
+}
+.b1 button:hover{
+    border:1px solid black;
+    width: 180px;
+    height: 40px;
+    color:white;
+    display: inline;
+    
+    font-size: 20px;
+    background-color:#d1292e;
+}
+.b2 button{
+    border:1px solid gray;
+    width: 180px;
+    height: 40px;
+    color:white;
+    background-color: #d1292e;
+    display: inline;
+    
+    font-size: 20px;
+   
+    margin-left: 190px;
+    margin-top: -50px;
+}

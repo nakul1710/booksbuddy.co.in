@@ -156,3 +156,16 @@
     display: inline-block;
     margin-left:0px ;
 }
+.towing{
+    margin-top: 150px;
+    color: black;
+}
+.towing-cont h2{
+   color: black;
+   font-size: 30px;
+   text-align: center;
+}
+.towing-cont p{
+    text-align: center;
+   
+}

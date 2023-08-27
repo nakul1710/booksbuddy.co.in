@@ -4,28 +4,38 @@
 }
 .container{
     position: relative;
+  background: url("./img/carplan.png")
 
 }
 .car{
     position: relative;
     top: -344px;
     left:300px;
+   
 }
 .back {
     position: absolute;
+    animation: wheel 10s infinite linear;
     left: 0px;
     top:46px;
     left:35px;
     right:0px;
-    animation-name: back;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    z-index: 200;
 }
 
-@keyframes back {
-    0%{transform:rotate(0deg)}
-    100%{transform:rotate(360deg)}
+@keyframes wheel {
+    0%{
+        transform: rotate(0deg)
+       }
+       
+         50% {
+         transform: rotate(-900deg)
+       }
+       
+       
+      100%{
+        transform: rotate(-1400deg)
+       }
 }
 
 

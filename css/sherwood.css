@@ -70,7 +70,7 @@
 .ban-btn{
  position: absolute;
 }
-.b1 button{
+.z1 button{
     border:1px solid gray;
     width: 180px;
     height: 40px;
@@ -82,7 +82,7 @@
     font-size: 20px;
     display: inline-block;
 }
-.b1 button:hover{
+.z1 button:hover{
     border:1px solid black;
     width: 180px;
     height: 40px;
@@ -92,7 +92,7 @@
     font-size: 20px;
     background-color:#d1292e;
 }
-.b2 button{
+.z2 button{
     border:1px solid gray;
     width: 180px;
     height: 40px;
@@ -364,3 +364,214 @@
  text-align: center;
  line-height: 20px;
 }
+.assistant{
+position: relative;
+}
+.b1{
+    border:1px solid #f5f5f5;
+    width:250px;
+    height:220px;
+    margin-left: 50px;
+    box-shadow:2px 2px 2px 2px;
+    display: inline-block;
+}
+.b1 img{
+    position: absolute;
+    left: 140px;
+}
+.b1 h2{
+    color: #111111;
+    margin-top: 60px;
+    text-align: center;
+}
+.b1 h2:hover{
+    color: #d1292e;
+    margin-top: 60px;
+    text-align: center;
+}
+.b1 p{
+    text-align: center;
+    line-height: 5px;
+    color: #111111;
+}
+.b1 .call-btn{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: #d1292e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b1 .call-btn:hover{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b2{
+    border:1px solid #f5f5f5;
+    width:250px;
+    height:220px;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow:2px 2px 2px 2px;
+    display: inline-block;
+}
+.b2 img{
+    position: absolute;
+    left: 450px;
+}
+.b2 h2{
+    color: #111111;
+    margin-top: 60px;
+    text-align: center;
+}
+.b2 h2:hover{
+    color: #d1292e;
+    margin-top: 60px;
+    text-align: center;
+}
+.b2 p{
+    text-align: center;
+    line-height: 5px;
+    color: #111111;
+}
+.b2 .call-btn{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: #d1292e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b2 .call-btn:hover{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b3{
+    border:1px solid #f5f5f5;
+    width:250px;
+    height:220px;
+    margin-left: 50px;
+    position: absolute;
+    top:0px;
+    left:608px;
+    margin-top: 30px;
+    box-shadow:2px 2px 2px 2px;
+    display: inline-block;
+}
+.b3 img{
+    position: absolute;
+    left: 70px;
+}
+.b3 h2{
+    color: #111111;
+    margin-top: 60px;
+    text-align: center;
+}
+.b3 h2:hover{
+    color: #d1292e;
+    margin-top: 60px;
+    text-align: center;
+}
+.b3 p{
+    text-align: center;
+    line-height: 5px;
+    color: #111111;
+}
+.b3 .call-btn{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: #d1292e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b3 .call-btn:hover{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b4{
+    border:1px solid #f5f5f5;
+    width:250px;
+    height:218px;
+    margin-left: 100px;
+    position: absolute;
+
+    top:-5px;
+    left:860px;
+    margin-top: 40px;
+    box-shadow:2px 2px 2px 2px;
+    display: inline-block;
+}
+.b4 img{
+    position: absolute;
+    left: 90px;
+}
+.b4 h2{
+    color: #111111;
+    margin-top: 50px;
+    text-align: center;
+}
+.b4 h2:hover{
+    color: #d1292e;
+    margin-top: 50px;
+    text-align: center;
+}
+.b4 p{
+    text-align: center;
+    line-height: 5px;
+    margin-top: -6px;
+    color: #111111;
+}
+.b4 .call-btn{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: #d1292e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+.b4 .call-btn:hover{
+    border: 1px solid gray;
+    width:120px;
+    height:20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+

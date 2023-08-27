@@ -574,4 +574,111 @@ position: relative;
     text-align: center;
     margin-left: 70px;
 }
+.fleet{
+    background-color: #f8f8f8;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    height:700px;
+}
+.fleet-con h2{
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left:600px;
+}
+.fleet-con p{
+    margin-top: 100px;
+    line-height: 0px;
+    text-align: center;
+}
 
+.fleet-img{
+    margin: 7%;
+    width:100%;
+}
+.f1{
+    border: 1px solid gray;
+    width:25%;
+    height:300px;
+    box-shadow: 1px 1px 1px 1px;
+    position: relative;
+    display: inline-block;
+
+}
+.f1-con{
+    background-color: white;
+    position: absolute;
+    top:200px;
+    left:0px;
+    height: 99px;
+    width:330px
+    
+}
+
+.f1-con h2{
+text-align: center;
+}
+.f1-con h2:hover{
+    text-align: center;
+    color: #d1292e;
+    }
+    
+.f2{
+    display: inline-block;
+    margin-left: 50px;
+    width:25%;
+    height:300px;
+    box-shadow: 1px 1px 1px 1px;
+    position: relative;
+}
+.f2-con{
+    background-color: white;
+    position: absolute;
+    top:200px;
+    left:0px;
+    height: 99px;
+    width:330px
+}
+.f2-con h2{
+    text-align: center;
+}
+.f2-con h2:hover{
+    text-align: center;
+    color: #d1292e;
+}
+.f3{
+    display: inline-block;
+    margin-left: 50px;
+    width:25%;
+    height:300px;
+    box-shadow: 1px 1px 1px 1px;
+    position: relative;
+}
+.f3-con{
+    background-color: white;
+    position: absolute;
+    top:200px;
+    left:0px;
+    height: 99px;
+    width:330px
+}
+.f3-con h2{
+    text-align: center;
+}
+.f3-con h2:hover{
+    text-align: center;
+    color: #d1292e;
+}
+.works{
+    margin: 5%;
+    
+}
+.works1{
+    display: inline-block;
+    float:right;
+}
+.works2{
+    display: inline-block;
+    float:left;
+}

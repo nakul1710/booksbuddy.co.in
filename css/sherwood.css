@@ -745,4 +745,24 @@ text-align: center;
      text-align: center;
      font-size: 20px;
    }
-  
+   .icons{
+    background-color: #fff;
+    box-shadow: 0 0 15px 10px #f5f5f5;
+    padding: 20px 10px;
+    margin-top: 900px;
+   }
+   .j1{
+    display: inline-block;
+   }
+   .j2{
+    display: inline-block;
+    margin-left: 150px;
+   }
+   .j3{
+    display: inline-block;
+    margin-left: 150px;
+   }
+   .j4{
+    display: inline-block;
+    margin-left: 150px;
+   }

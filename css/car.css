@@ -1,51 +1,48 @@
-*{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.container{
-    position: relative;
-  background: url("./img/carplan.png")
 
+body {
+    background: url("../img/carplan.png") center/cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
+
 .car{
     position: relative;
-    top: -344px;
-    left:300px;
+    background-repeat: no-repeat;
+    width: 600px;
+    margin: 0px auto;
+    animation: carmove 3.1s infinite linear;
+    background: url('../img/porsche.png') center/cover;
+    padding-top:13.25%;
+    margin-top: 50px;
    
 }
-.back {
+
+
+.wheel {
     position: absolute;
-    animation: wheel 10s infinite linear;
-    left: 0px;
-    top:46px;
-    left:35px;
-    right:0px;
-    z-index: 200;
+    animation: wheel 0.1s infinite linear;
+    background: url("../img/Car Wheel.png") center/cover;
+    position: absolute;
+    bottom:0.8%;
+    width: 100px;
+    height: 100px;
 }
+
+
+ .back{right: 14%;
+     top: 52%;
+
+    }
+ .front{left: 10%; top: 52%}
+ 
 
 @keyframes wheel {
     0%{
         transform: rotate(0deg)
        }
-       
-         50% {
-         transform: rotate(-900deg)
-       }
-       
-       
       100%{
-        transform: rotate(-1400deg)
+        transform: rotate(360deg)
        }
-}
-
-
-.front{
-    position: absolute;
-    left:0px;
-    top:46px;
-    left:205px;
-    right:0px;
-    animation-duration: 4s;
-    animation-timing-function: infinite;
-    transform: rotate(360deg);
 }

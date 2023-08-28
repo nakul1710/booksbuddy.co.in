@@ -748,7 +748,7 @@ text-align: center;
    .icons{
     background-color: #fff;
     box-shadow: 0 0 15px 10px #f5f5f5;
-    padding: 20px 10px;
+    padding: 20px 120px;
     margin-top: 900px;
    }
    .j1{
@@ -766,3 +766,15 @@ text-align: center;
     display: inline-block;
     margin-left: 150px;
    }
+.client{
+    border: 1px solid #111111;
+    background-color: #111111;
+    margin-top: 100px;
+    height: 500px;
+    width:100%;
+    color: white;
+}
+.s1{
+    margin-top: 100px;
+    text-align: center;
+}

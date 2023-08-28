@@ -16,13 +16,12 @@ body {
     background: url('../img/porsche.png') center/cover;
     padding-top:13.25%;
     margin-top: 50px;
-   
 }
 
 
 .wheel {
     position: absolute;
-    animation: wheel 0.1s infinite linear;
+    animation: wheel 0.5s infinite linear;
     background: url("../img/Car Wheel.png") center/cover;
     position: absolute;
     bottom:0.8%;
@@ -43,6 +42,6 @@ body {
         transform: rotate(0deg)
        }
       100%{
-        transform: rotate(360deg)
+        transform: rotate(-360deg)
        }
 }

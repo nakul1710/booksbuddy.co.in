@@ -21,7 +21,7 @@ body {
 
 .wheel {
     position: absolute;
-    animation: wheel 0.5s infinite linear;
+    animation: wheel 0.0001s infinite linear;
     background: url("../img/Car Wheel.png") center/cover;
     position: absolute;
     bottom:0.8%;
@@ -42,6 +42,6 @@ body {
         transform: rotate(0deg)
        }
       100%{
-        transform: rotate(-360deg)
+        transform: rotate(360deg)
        }
 }

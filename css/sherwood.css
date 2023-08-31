@@ -24,9 +24,7 @@
 
     
 }
-.nav-left{
-    
-}
+
 .nav-right{
     margin-left: 737px;
     margin-top: -101px;
@@ -66,6 +64,7 @@
 .ban-content h1{
     font-size: 46px;
     line-height: 50px;
+    font-family: "Oswald-Bold";
 }
 .ban-btn{
  position: absolute;
@@ -251,13 +250,13 @@
     box-shadow:  0 0 15px 10px #f5f5f5;
     width:250px;
     color: black;
-    margin-left: 50px;
+    margin-left: 100px;
     border-radius: 20px;
   }
   .q3 img{
     position: absolute;
-    top:29px;
-    left:88px;
+    top:1083px;
+    left:820px;
     border-radius: 50px;
   }
   .q3 h2{
@@ -274,7 +273,7 @@
     box-shadow: 0 0 15px 10px #f5f5f5;
     width:250px;
     background-color: #d1292e;
-    margin-left: 50px;
+    
     color:white;
     border-radius: 20px;
 }
@@ -815,12 +814,14 @@ text-align: center;
 .w1 input{
     margin-left: 100px;
     margin-bottom: 30px;
+    font-size: 25px;
+
     width:50%;
     height:50px
-    
 }
 .w1 textarea{
     margin-left: 100px;
+    font-size: 15px;
 }
 .w1 .bt2{
    border: 1px solid #111111;
@@ -833,4 +834,179 @@ text-align: center;
    display: flex;
    justify-content: center;
    padding-top: 0px;
+}
+.w2{
+    float: left;
+}
+.w2 .w21{
+    border:1px solid #e5e5e5;
+    width:400px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.w2 .w22{
+    border:1px solid #e5e5e5;
+    width:400px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.w2 .w23{
+    border:1px solid #e5e5e5;
+    width:400px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.w2 .w24{
+    border:1px solid #e5e5e5;
+    width:400px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.w2 .w25{
+    border:1px solid #e5e5e5;
+    width:400px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.subscribe{
+    margin-top: 700px;
+    background-color: #71a038;
+    height:200px;
+    width:100%;
+    position: relative;
+}
+.subscribe h1{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top:20px;
+    left: 90px;
+}
+.email form{
+    float: right;
+   
+}
+.email form input{
+    margin-right: 400px;
+    margin-top: 80px;
+    width:50%;
+    height: 40px;
+   
+    color:black;
+    background-color: white;
+}
+.email .sub{
+ border:1px solid #d1292e;
+ width:200px;
+ height: 40px;
+ position: absolute;
+ top:81px;
+ left:1063px;
+ color: white;
+ background-color: #d1292e;
+ display: flex;
+ font-size: 25px;
+ justify-content: center;
+}
+.contact{
+    background-color: #222222ff;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.co1{
+    display: inline-block;
+}
+ .co1 img{
+    position: absolute;
+    top:70px;
+    left:90px;
+}
+ .co1 p{
+    position: absolute;
+    top:160px;
+    left:85px;
+    color: white;
+    font-size: 20px;
+ }
+ .co2{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top:50px;
+    left:700px;
+ }
+ .co2 .img1{
+    position: absolute;
+    top:60px;
+    left:-27px;
+ }
+ .co2 .img2{
+    position: absolute;
+    top:120px;
+    left:-27px;
+ }
+ .co2 .img3{
+    position: absolute;
+    top:170px;
+    left:-27px;
+ }
+ .co3 {
+    display: inline-block;
+    position: absolute;
+    top:50px;
+    left:1000px;
+    color: white;;
+ }
+ .co3 p{
+    line-height: 20px;
+ }
+ .social-icons{
+    background-color: #111111;
+    color:white;
+    height:50px;
+    width: 100%;
+ }
+ .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.social-icons a:hover {
+    color: #71a038;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 30px;
+}
+@media (max-width:1000px){
+    .social-icons{
+        margin-left:25px;
+    }
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    text-align: center;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+.copy{
+    float: right;
+    margin-top: 15px;
 }

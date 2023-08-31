@@ -1,4 +1,10 @@
 
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
 .logo img{
    margin-left: 580px;
    display: inline-block;

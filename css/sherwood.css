@@ -325,7 +325,7 @@
 }
 .under-con P{
     position: absolute;
-    top:1450px;
+    top:1400px;
     left:200px;
     color: white;
     word-spacing: 3px;
@@ -333,32 +333,33 @@
 }
 .under-con h2{
     position: absolute;
-    top:1480px;
+    top:1430px;
     left:200px;
     color: white;
 
 }
 .btn-under{
     border:1px solid GRAY;
-    width:180px;
-    height: 50px;
+    width:130px;
+    height: 30px;
     background-color: #d1292e;
     color:white;
     position: absolute;
-    top:1450px;
+    top:1400px;
     left:1000px;
 }
 .btn-under P{
-    margin-left: 40px;
+    margin-left: 25px;
 }
 .btn-under:hover{
-    border:1px solid gray;
-    width:180px;
-    height: 50px;
-    background-color: black;
+    border:1px solid GRAY;
+    width:130px;
+    height: 30px;
+    background-color: #111111;
     color:white;
+    
     position: absolute;
-    top:1450px;
+    top:1400px;
     left:1000px;
 }
  .c1 h2{
@@ -925,7 +926,7 @@ text-align: center;
    
 }
 .email form input{
-    margin-right: 400px;
+    margin-right: 432px;
     margin-top: 80px;
     width:50%;
     height: 40px;

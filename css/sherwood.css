@@ -949,7 +949,7 @@ text-align: center;
 .contact{
     background-color: #222222ff;
     width: 100%;
-    height: 400px;
+    height: 300px;
     position: relative;
 }
 .co1{
@@ -976,17 +976,17 @@ text-align: center;
  }
  .co2 .img1{
     position: absolute;
-    top:60px;
+    top:19px;
     left:-27px;
  }
  .co2 .img2{
     position: absolute;
-    top:120px;
+    top:77px;
     left:-27px;
  }
  .co2 .img3{
     position: absolute;
-    top:170px;
+    top:130px;
     left:-27px;
  }
  .co3 {

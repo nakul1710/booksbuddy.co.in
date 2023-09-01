@@ -3,7 +3,7 @@
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-   
+   margin-bottom: 0px;
 }
 .logo img{
    margin-left: 580px;
@@ -261,7 +261,7 @@
   }
   .q3 img{
     position: absolute;
-    top:1083px;
+    top:1015px;
     left:820px;
     border-radius: 50px;
   }
@@ -396,7 +396,7 @@ position: relative;
 }
 .b1 p{
     text-align: center;
-    line-height: 5px;
+    line-height: 18px;
     color: #111111;
 }
 .b1 .call-btn{
@@ -446,7 +446,7 @@ position: relative;
 }
 .b2 p{
     text-align: center;
-    line-height: 5px;
+    line-height: 18px;
     color: #111111;
 }
 .b2 .call-btn{
@@ -499,7 +499,7 @@ position: relative;
 }
 .b3 p{
     text-align: center;
-    line-height: 5px;
+    line-height: 18px;
     color: #111111;
 }
 .b3 .call-btn{
@@ -553,7 +553,7 @@ position: relative;
 }
 .b4 p{
     text-align: center;
-    line-height: 5px;
+    line-height: 18px;
     margin-top: -6px;
     color: #111111;
 }
@@ -593,7 +593,7 @@ position: relative;
     left:600px;
 }
 .fleet-con p{
-    margin-top: 100px;
+    margin-top: 60px;
     line-height: 0px;
     text-align: center;
 }
@@ -871,16 +871,14 @@ text-align: center;
     border:1px solid #e5e5e5;
     width:400px;
     height: 50px;
-    display:flex;
-    justify-content: center;
+    
     font-size: 20px;
 }
 .w2 .w22{
     border:1px solid #e5e5e5;
     width:400px;
     height: 50px;
-    display:flex;
-    justify-content: center;
+    
     margin-top: 30px;
     font-size: 20px;
 }
@@ -888,8 +886,7 @@ text-align: center;
     border:1px solid #e5e5e5;
     width:400px;
     height: 50px;
-    display:flex;
-    justify-content: center;
+    
     margin-top: 30px;
     font-size: 20px;
 }
@@ -897,8 +894,7 @@ text-align: center;
     border:1px solid #e5e5e5;
     width:400px;
     height: 50px;
-    display:flex;
-    justify-content: center;
+    
     margin-top: 30px;
     font-size: 20px;
 }
@@ -906,8 +902,7 @@ text-align: center;
     border:1px solid #e5e5e5;
     width:400px;
     height: 50px;
-    display:flex;
-    justify-content: center;
+    
     margin-top: 30px;
     font-size: 20px;
 }
@@ -967,7 +962,7 @@ text-align: center;
 }
  .co1 p{
     position: absolute;
-    top:160px;
+    top:175px;
     left:85px;
     color: white;
     font-size: 20px;

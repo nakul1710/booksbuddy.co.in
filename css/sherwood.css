@@ -340,7 +340,7 @@
 .btn-under{
     border:1px solid GRAY;
     width:130px;
-    height: 30px;
+    height: 21px;
     background-color: #d1292e;
     color:white;
     position: absolute;
@@ -353,7 +353,7 @@
 .btn-under:hover{
     border:1px solid GRAY;
     width:130px;
-    height: 30px;
+    height: 21px;
     background-color: #111111;
     color:white;
     

@@ -1,0 +1,26 @@
+.banner img{
+    position: relative;
+}
+.banner p{
+    color: white;
+    position: absolute;
+    top:295px;
+    left: 150px;
+    font-size: 25px;
+}
+.banner h1{
+    position: absolute;
+    top:330px;
+    left: 145px;
+    color: white;
+}
+.btn button1{
+    position: absolute;
+    top:450px;
+    left:150px;
+}
+.btn button2{
+    position: absolute;
+    top:450px;
+    left:270px;
+}

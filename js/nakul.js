@@ -30,3 +30,18 @@ for (let i = 0; i < numbersArrays.length; i++) {
 }
 console.log("The updated array is:", numbersArrays);
 
+const element = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < element.length; i++) {
+  console.log(element[i]);
+}
+// remove number 25 from an array
+const numbere = [10, 20, 30, 25, 40];
+const remove = 25;
+for(i=0; i < number.length; i++){
+    if(numbere[i] === remove){
+        numbere.splice(i,1);
+        break;
+    }
+} 
+console.log("the New array is",numbere);

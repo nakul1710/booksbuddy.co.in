@@ -66,3 +66,22 @@ for (let i=0; i<Math.floor(arr.length/2); i++){
 }
 
 console.log("The reversed array is ",arr);
+
+//palindromic sequence
+const word = "racecar"
+let ispalindrope = true;
+for(let i=0; i<Math.floor(word.length/2); i++){
+    if(word[i]!== word[word.length-1-i]){
+        ispalindrope = false;
+        break;
+    }
+}
+console.log("The word is",ispalindrope ? "a plindrome.":"not a plindrome")
+// find average of an array
+const num = [2,4,6,8,10];
+let su = 0;
+for(let i=0; i<num.length; i++){
+    su += num[i];
+}
+const average = su/num.length;
+console.log("The average is",average);

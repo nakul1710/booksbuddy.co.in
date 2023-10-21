@@ -45,3 +45,24 @@ for(i=0; i < number.length; i++){
     }
 } 
 console.log("the New array is",numbere);
+// maximaum number finding in the array
+const numbe = [4, 9, 2, 7, 5];
+let maxNumbe = numbers[0];
+
+for (let i = 1; i < numbe.length; i++) {
+  if (numbe[i] > maxNumbe) {
+    maxNumbe = numbe[i];
+  }
+}
+
+console.log("The maximum number in the array is:", maxNumbe);
+// reverce the array
+
+const arr = [1,2,3,4,5];
+for (let i=0; i<Math.floor(arr.length/2); i++){
+    const temp = arr[i];
+    arr[i] = arr[arr.length-1-i];
+    arr[arr.length-1-i] = temp;
+}
+
+console.log("The reversed array is ",arr);

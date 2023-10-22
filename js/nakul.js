@@ -21,7 +21,6 @@ for (let i=0; i<numbers.length; i++){
 console.log("The maximum number is:",maxNumber);
 const numbersArrays = [10, 20, 25, 30, 40];
 const removeValue = 25;
-
 for (let i = 0; i < numbersArrays.length; i++) {
   if (numbersArrays[i] === removeValue) {
     numbersArrays.splice(i, 1);
@@ -95,3 +94,30 @@ temp = a;
 a = b;
 b = temp;
 console.log("after swaping: a=",a,"b =",b)
+// Area of a rectangle
+const width = 20;
+const length = 10;
+const area = width*length;
+console.log("The area of the rectangle",area);
+const n = 12345;
+let s = 0;
+let tem = n;
+while(tem>0){
+    s += tem%10;
+    tem = Math.floor(tem/10)
+}
+console.log("the sum is",s);
+const primeNumber = 17;
+let isPrime = true;
+if(primeNumber < 2){
+    isPrime = false;
+}
+else {
+    for(let i=2; i <= Math.sqrt(primeNumber); i++){
+        if(primeNumber%i === 0){
+         isPrime = false;
+         break;
+        }
+    }
+}
+console.log("The Number is",isPrime ?"prime":"not prime");

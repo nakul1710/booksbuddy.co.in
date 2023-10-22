@@ -85,13 +85,13 @@ for(let i=0; i<num.length; i++){
 }
 const average = su/num.length;
 console.log("The average is",average);
-let a = 5;
-let b = 10;
+let a = 3;
+let b = 4;
 let temp;
-console.log("Before swapping: a =", a, "b =", b);
+
+console.log("before swaping: a=",a,"b =",b);
 
 temp = a;
 a = b;
 b = temp;
-
-console.log("After swapping: a =", a, "b =", b);
+console.log("after swaping: a=",a,"b =",b)

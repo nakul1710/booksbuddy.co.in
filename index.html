@@ -2,132 +2,430 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>BooksBuddy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bookbuddy.css" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17QWC8FWJ3"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Buddy</title>
 
-    gtag('config', 'G-17QWC8FWJ3');
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin-top: 100px;
+        }
+
+        .team-photo {
+            border-radius: 5000px;
+            width: 120px;
+            height: 120px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 25px;
+            font-size: 20px;
+        }
+
+        @import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+        .pricing-table {
+            background-color: #eee;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .pricing-table .block-heading {
+            padding-top: 50px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .pricing-table .block-heading h2 {
+            color: #DC3545;
+        }
+
+        .pricing-table .block-heading p {
+            text-align: center;
+            max-width: 420px;
+            margin: auto;
+            opacity: 0.7;
+        }
+
+        .pricing-table .heading {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-table .item {
+            background-color: #ffffff;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+            border-top: 2px solid #DC3545;
+            padding: 30px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .pricing-table .col-md-5:not(:last-child) .item {
+            margin-bottom: 30px;
+        }
+
+        .pricing-table .item button {
+            font-weight: 600;
+        }
+
+        .pricing-table .ribbon {
+            width: 160px;
+            height: 32px;
+            font-size: 12px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+            background: #4dbe3b;
+            transform: rotate(45deg);
+            position: absolute;
+            right: -42px;
+            top: 20px;
+            padding-top: 7px;
+        }
+
+        .pricing-table .item p {
+            text-align: center;
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+
+        .pricing-table .features .feature {
+            font-weight: 600;
+        }
+
+        .pricing-table .features h4 {
+            text-align: center;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        .pricing-table .price h4 {
+            margin: 15px 0;
+            font-size: 45px;
+            text-align: center;
+            color: #DC3545;
+        }
+
+        .pricing-table .buy-now button {
+            text-align: center;
+            margin: auto;
+            font-weight: 600;
+            padding: 9px 0;
+        }
+    </style>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        // TODO: Please change the Google Analytics ID
+        gtag('config', 'G-17QWC8FWJ3');
     </script>
+
+    <script>
+        ! function (t, e) {
+            var o, n, p, r;
+            e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) {
+                function g(t, e) {
+                    var o = e.split(".");
+                    2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () {
+                        t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }(p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host +
+                    "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r);
+                var u = e;
+                for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString =
+                    function (t) {
+                        var e = "posthog";
+                        return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                    }, u.people.toString = function () {
+                        return u.toString(1) + ".people (stub)"
+                    }, o =
+                    "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys"
+                    .split(" "), n = 0; n < o.length; n++) g(u, o[n]);
+                e._i.push([i, s, a])
+            }, e.__SV = 1)
+        }(document, window.posthog || []);
+        // TODO: Please add your posthog ID
+        posthog.init('phc_gv88ZtyYtVvQYDQexT1FI8GQT3mV9PdybjrzL6ju9cr', {
+            api_host: 'https://app.posthog.com'
+        })
+    </script>
+
 </head>
+
 <body>
-    <header>
-        <div class="header">
-            <h1><a href="#">Book Buddy</a></h1>
+    <header class="text-white fixed-top">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger ">
+                <div class="col-2 ps-3">
+                    <a class="navbar-brand text-white" href="#">Book Buddy</a>
+                </div>
+                <div class="col-10 ">
+                    <button class="navbar-toggler text-white " type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white justify-content-end pe-3"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse text-white justify-content-end pe-3"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto text-center">
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="#aboutme">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#fee">Fee</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#gallary">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#join">Join</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about-us">About Us</a>
-            <a href="#team">Team</a>
-            <a href="#Gallery"  >Gallery</a>
-            <a href="#Fee" >Fee</a>
-            <a href="#Contacts">Contacts</a>
-            <a href="https://fast.com/" target="_blank">Check internet-speed</a>
-            <a href="https://forms.gle/fErdqWHkdr5mQwLR6" target="_blank">Join</a>
-            
-        </nav>
     </header>
-    <section class="banner">
-        <img src="./img/topgun.avif" alt="topgun" width="100%" height="500px">
-    </section>
-    <section id="about-us" class="about">
-        <h1 class="heading">About Us</h1>
-        <p class="about-content">Welcome to Book Buddy, your gateway to knowledge and imagination.
-            Explore a world of books, resources, and endless possibilities at Book Buddy.
-            Discover the wonders of literature and learning with Book Buddy.
-            Dive into our virtual shelves and uncover a treasure trove of captivating stories and insightful knowledge.
-            At Book Buddy, we believe in the power of books to inspire, educate, and transform lives.
-            Unlock the door to a world of information and inspiration with just a click at Book Buddy.
-            Immerse yourself in a community of readers and thinkers at Book Buddy.
-            Your literary adventure starts here at Book Buddy, where stories come to life.
-            Connect with fellow book lovers and explore our curated collection at Book Buddy.
-            Discover the joy of reading and the magic of learning at Book Buddy.
-            Expand your horizons and embark on a journey of knowledge at Book Buddy.
-            Experience the joy of reading anytime, anywhere with our digital library at Book Buddy.
-            Unleash your imagination and expand your mind with our vast collection of books and resources.
-            Your passport to a world of ideas and enlightenment awaits at Book Buddy.
-            Discover the gateway to knowledge, entertainment, and lifelong learning at Book Buddy.</p>
-    </section>
-    <hr>
-    <section id="team" class="team">
-        <h1 class="heading">Team</h1>
-        <img class="team-photo" src="./img/p.jpeg">
-        <h1>Prakash Chand Yadav</h1>
-        <p class="Team-content">Mr. Prakash Chand Yadav is a passionate and dedicated English teacher known for his
-            enthusiasm and love for the subject. With a friendly and approachable demeanor, he creates a positive and
-            inclusive classroom environment where students feel comfortable expressing their ideas and opinions.
-        </p>
-    </section>
-    <hr>
-    <section id="Gallery">
-        <h1 class="heading">Gallery</h1>
-        <div class="d1">
-        <img src="./img/1.jpeg"    width="24.25%"  height="200px">
-        <img src="./img/2.png" alt="profile"  width="24.25%"  height="200px">
-        <img src="./img/3.jpeg" alt="nakul"  width="24.25%"  height="200px">
-        <img src="./img/4.jpeg" alt="nakul"  width="24.25%"  height="200px">
+
+    <section class="banner text-center py-5" style="margin-top: 30px;">
+        <h1>
+            <span>Book</span>
+            <span class="red bounce-word text-danger">Buddy</span>
+        </h1>
+        <div class="social-links">
+            <a target="_blank" href="https://github.com/nakul1710" class="text-decoration-none py-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-github"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+            <a target="_blank" href="https://twitter.com/nakul1710" class="text-decoration-none py-3"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-twitter"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    <a href="https://twitter.com/janityadav16">
+                </svg></a>
+            <a target="_blank" href="https://www.linkedin.com/in/nakul-yadav-a87bb5237/"
+                class="text-decoration-none py-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-linkedin"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/nakul_yadav1710" class="text-decoration-none py-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-instagram"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg>
+            </a>
         </div>
-        </section>
-        <section id="Fee">
-            <h1 class="heading">Fee</h1>
-            <div id="pricing">
-                <div class="price">
-                    <div class="level">Pay As You Go</div>
-                    <h2>25Rs/Day</h2>
-                    <ol>
-                      <li>1 Day Pass</li>
-                      <li>AC Rooms</li>
-                      <li>Private Space</li>
-                      <li>High Speed Internet</li>
-                      <li>2nd and 4th sunday will be holiday</li>
-                    </ol>
-                </div>
-                <div class="price">
-                    <div class="level">Half-day</div>
-                    <h2>400Rs/Month</h2>
-                    <ol>
-                        <li>8am to 2pm or 2pm to 8pm</li>
-                        <li> AC Rooms.</li>
-                        <li>Private Space</li>
-                        <li>2nd and 4th sunday will be holiday</li>
-                        <li>High Speed Internet</li>
-                    </ol>
-                </div>
-                <div class="price">
-                    <div class="level">Full-day</div>
-                    <h2>550Rs/Month</h2>
-                    <ol>
-                        <li>8am to 8pm</li>
-                        <li>AC Rooms</li>
-                        <li>High Speed Internet</li>
-                        <li>Private Space</li>
-                        <li>2nd and 4th sunday will be holiday</li>
-                    </ol>
+        <div class="action-section mt-4">
+            <a class="btn btn-danger" target="_blank" href="https://forms.gle/fErdqWHkdr5mQwLR6" download>Join Now</a>
+        </div>
+    </section>
+
+
+
+    <section class="about-section bg-light" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center pt-4 pb-5">About Us</h2>
+                    <p class="text-justify" style="font-size: 18px; font-weight: 600;">
+                        Welcome to Book Buddy, your gateway to knowledge and imagination. Explore a world of books,
+                        resources, and endless possibilities at Book Buddy. Discover the wonders of literature and
+                        learning with Book Buddy. Dive into our virtual shelves and uncover a treasure trove of
+                        captivating stories and insightful knowledge. At Book Buddy, we believe in the power of books to
+                        inspire, educate, and transform lives. Unlock the door to a world of information and inspiration
+                        with just a click at Book Buddy. Immerse yourself in a community of readers and thinkers at Book
+                        Buddy. <br><br>
+                        
+                        Your literary adventure starts here at Book Buddy, where stories come to life. Connect
+                        with fellow book lovers and explore our curated collection at Book Buddy. Discover the joy of
+                        reading and the magic of learning at Book Buddy. Expand your horizons and embark on a journey of
+                        knowledge at Book Buddy. Experience the joy of reading anytime, anywhere with our digital
+                        library at Book Buddy. Unleash your imagination and expand your mind with our vast collection of
+                        books and resources. Your passport to a world of ideas and enlightenment awaits at Book Buddy.
+                        Discover the gateway to knowledge, entertainment, and lifelong learning at Book Buddy.
+
+                    </p>
                 </div>
             </div>
-        </section>
-    
-    <section id="join" class="join">
-        <a href="https://forms.gle/fErdqWHkdr5mQwLR6" target="_blank" class="join-btn">Join Today</a>
+        </div>
     </section>
-    <hr>
-    <section id="Contacts">
-        <h1  class="heading">Contacts</h1>
-        <p class="buny">
-            Mob: +91 8104738638<br>
-            BOOK BUDDY,<br>
-            Khairthal,Rajasthan,<br>
-            India,<br>
-        </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14117.271995363571!2d76.63023946710403!3d27.79998096807085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3972bbe5e3849dd7%3A0x473b638b18e2f14!2sBookbuddy%20library%20khairthal!5e0!3m2!1sen!2sin!4v1684564225303!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="education-section " id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center pt-4 pb-5">Team</h2>
+                    <p class="text-decoration-none text-center">
+                        <img class="team-photo" src="./img/p.jpeg">
 
+                    </p>
+                    <p class="text-decoration-none text-center" style="color: red; text-decoration: none; font-size: 30px;">Prakash Chand
+                        Yadav</p>
+                    <p class="text-decoration-none text-center">Mr. Prakash Chand Yadav is a passionate and dedicated English teacher known for his enthusiasm
+                        and love for the subject. With a friendly and approachable demeanor, he creates a positive and
+                        inclusive classroom environment where students feel comfortable expressing their ideas and
+                        opinions.</p>
+
+                </div>
+            </div>
+        </div>
     </section>
+    <section class="pricing-table bg-light py-3" id="fee">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center pt-4 pb-5">Fees</h2>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="heading">
+                                <h3>BASIC</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="features">
+                                <h4><span class="feature">AC</span> : <span class="value">No</span>
+                                </h4>
+                                <h4><span class="feature">Duration</span> : <span class="value">5h/Day</span>
+                                </h4>
+                                <h4><span class="feature">Internet</span> : <span class="value">No</span></h4>
+                                <h4><span class="feature">Private Space</span> : <span class="value">Yes</span></h4>
+                            </div>
+                            <div class="price">
+                                <h4>300 Rs</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="ribbon">Best Value</div>
+                            <div class="heading">
+                                <h3>PRO</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="features">
+                                <h4><span class="feature">AC</span> : <span class="value">No</span>
+                                </h4>
+                                <h4><span class="feature">Duration</span> : <span class="value">8h/Day</span>
+                                </h4>
+                                <h4><span class="feature">Internet</span> : <span class="value">Yes</span></h4>
+                                <h4><span class="feature">Private Space</span> : <span class="value">Yes</span></h4>
+                            </div>
+                            <div class="price">
+                                <h4>400 Rs</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="heading">
+                                <h3>PREMIUM</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="features">
+                                <h4><span class="feature">AC</span> : <span class="value">Yes</span>
+                                </h4>
+                                <h4><span class="feature">Duration</span> : <span class="value">8h/Day</span>
+                                </h4>
+                                <h4><span class="feature">Internet</span> : <span class="value">Yes</span></h4>
+                                <h4><span class="feature">Private Space</span> : <span class="value">Yes</span></h4>
+                            </div>
+                            <div class="price">
+                                <h4>500 Rs</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="action-section mt-4 text-center ">
+                        <a class="btn btn-danger text-center" target="_blank" href="https://forms.gle/fErdqWHkdr5mQwLR6" download>Join Now</a>
+                    </div>
+                </div>
+  
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section bg-light py-3" id="gallary">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2 class="text-center pt-4 pb-5">Gallery</h2>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <img src="./img/1.jpeg" alt="image-1" class=" img-fluid rounded border">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="./img/2.png" alt="image-2" class="img-fluid rounded border">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="./img/3.jpeg" alt="image-3" class="img-fluid rounded border">
+                        </div>
+                        <div class="col-lg-4 mb-4 py-5 border-dark">
+                            <img src="./img/4.jpeg" alt="image-4" class="img-fluid rounded border">
+                        </div>
+                        <!-- <div class="col-lg-4 mb-4 py-5">
+                            <img src="./img/5.jpeg" alt="image-5" class="img-fluid rounded border">
+                        </div>
+                        <div class="col-lg-4 mb-4 py-5">
+                            <img src="./img/6.jpeg" alt="image-6" class="img-fluid rounded border">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education-section " id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center pt-4 pb-5">Contact</h2>
+                    <address class="text-decoration-none text-center">Mob: +91 8104738638<br>
+                        BOOK BUDDY,
+                        Khairthal,Rajasthan,
+                        India,</address>
+
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14117.271995363571!2d76.63023946710403!3d27.79998096807085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3972bbe5e3849dd7%3A0x473b638b18e2f14!2sBookbuddy%20library%20khairthal!5e0!3m2!1sen!2sin!4v1684564225303!5m2!1sen!2sin"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="bg-dark py-2">
+            <p class="text-center text-light">&copy; 2023 Nakul Yadav. All rights reserved.</p>
+        </div>
+    </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="nakulyadav" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F"
+        data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
 
 </html>
